@@ -1,15 +1,15 @@
-# simple-java-maven-app
+#simple-java-maven-app
 
-This repository is for the
-[Build a Java app with Maven](https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/)
-tutorial in the [Jenkins User Documentation](https://jenkins.io/doc/).
+这个存储库是为了
+[使用Maven构建Java应用程序]（https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/）
+[Jenkins用户文档]（https://jenkins.io/doc/）中的教程。
 
-The repository contains a simple Java application which outputs the string
-"Hello world!" and is accompanied by a couple of unit tests to check that the
-main application works as expected. The results of these tests are saved to a
-JUnit XML report.
+存储库包含一个输出字符串的简单Java应用程序
+“你好，世界！” 并附有几个单元测试来检查
+主要应用程序按预期工作。 这些测试的结果保存到了
+JUnit XML报告。
 
-The `jenkins` directory contains an example of the `Jenkinsfile` (i.e. Pipeline)
-you'll be creating yourself during the tutorial and the `scripts` subdirectory
-contains a shell script with commands that are executed when Jenkins processes
-the "Deliver" stage of your Pipeline.
+`jenkins`目录包含`Jenkinsfile`的示例（即Pipeline）
+你将在教程和`scripts`子目录中创建自己
+包含一个shell脚本，其中包含在Jenkins处理时执行的命令
+管道的“交付”阶段。
